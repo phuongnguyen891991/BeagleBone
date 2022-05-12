@@ -9,6 +9,7 @@ RUN apt-get update && apt-get -y install \
                         libffi-dev \
                         libxml2-dev \
                         libxslt-dev \
+                        libssl-dev \
                         cmake
 # Download and install Python 3.7
 # Need to remove symlink from /usr/bin/python3 -> /usr/bin/python3.6
